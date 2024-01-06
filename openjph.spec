@@ -22,7 +22,7 @@ For example, for wavelet transform, only reversible 5/3 and irreversible 9/7 are
 Summary:        JPEG-2000 Parth-15 library
 Group:          Productivity/Graphics/Convertors
 
-%description --n %{libname}
+%description -n %{libname}
 This package contains libopenjph, a library implementing the JPEG-2000
 standard Part 15.
 
