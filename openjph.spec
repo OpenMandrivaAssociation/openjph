@@ -8,7 +8,7 @@ Summary:        Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K)
 License:        BSD-2-Clause
 Group:          Productivity/Graphics/Libraries
 URL:            https://github.com/aous72/OpenJPH
-Source:         https://github.com/aous72/OpenJPH/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
+Source:         https://github.com/aous72/OpenJPH/archive/refs/tags/%{version}/OpenJPH-%{version}.tar.gz
 BuildRequires:  cmake
 BuildRequires:  pkgconfig(libtiff-4)
 
