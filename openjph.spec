@@ -41,7 +41,7 @@ standard Part 15.
 
 %build
 %cmake \
-%if aarch64
+%if %{arm} %{armx}
         -DOJPH_DISABLE_INTEL_SIMD:BOOL=ON \
         -DOJPH_ENABLE_INTEL_AVX512=OFF \
 %else
