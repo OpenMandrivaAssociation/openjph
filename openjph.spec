@@ -42,7 +42,7 @@ standard Part 15.
 %build
 %cmake \
 %ifarch %{_aarch64}
-        -DOJPH_DISABLE_INTEL_SIMD:BOOL=ON \
+        -DOJPH_DISABLE_INTEL_SIMD=ON \
         -DOJPH_ENABLE_INTEL_AVX512=OFF \
 %else
         -DOJPH_ENABLE_INTEL_AVX512=ON
