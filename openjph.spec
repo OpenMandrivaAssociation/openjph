@@ -45,7 +45,7 @@ standard Part 15.
         -DOJPH_DISABLE_INTEL_SIMD=ON \
         -DOJPH_ENABLE_INTEL_AVX512=OFF \
 %else
-        -DCMAKE_BUILD_TYPE:release \
+        -DCMAKE_BUILD_TYPE=Release \
         -DOJPH_ENABLE_INTEL_AVX512=ON
 %endif
 %make_build
