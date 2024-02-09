@@ -44,6 +44,7 @@ standard Part 15.
 %ifarch %{aarch64}
         -DOJPH_DISABLE_INTEL_SIMD=ON \
         -DOJPH_ENABLE_INTEL_AVX512=OFF \
+        -DCMAKE_BUILD_TYPE=Release
 %else
         -DCMAKE_BUILD_TYPE=Release \
         -DOJPH_ENABLE_INTEL_AVX512=ON
