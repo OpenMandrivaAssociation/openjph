@@ -1,4 +1,4 @@
-%define major 0.18
+%define major 0.21
 
 %define libname %mklibname openjph
 %define devname %mklibname -d openjph
