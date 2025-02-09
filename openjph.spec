@@ -68,4 +68,5 @@ standard Part 15.
 %files -n %{devname}
 %{_includedir}/openjph/
 %{_libdir}/libopenjph.so
+%{_libdir}/cmake/openjph/
 %{_libdir}/pkgconfig/openjph.pc
