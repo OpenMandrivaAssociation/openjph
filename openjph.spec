@@ -4,7 +4,7 @@
 %define devname %mklibname -d openjph
 
 Name:           openjph
-Version:        0.24.1
+Version:        0.24.2
 Release:        1
 Summary:        Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K)
 License:        BSD-2-Clause
