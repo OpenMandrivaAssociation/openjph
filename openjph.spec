@@ -12,6 +12,7 @@ Group:          Productivity/Graphics/Libraries
 URL:            https://github.com/aous72/OpenJPH
 Source:         https://github.com/aous72/OpenJPH/archive/refs/tags/%{version}/OpenJPH-%{version}.tar.gz
 BuildRequires:  cmake
+BuildRequires:  make
 BuildRequires:  pkgconfig(libtiff-4)
 
 %description
