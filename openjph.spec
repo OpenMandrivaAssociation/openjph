@@ -1,10 +1,10 @@
-%define major 0.29
+%define major 0.31
 
 %define libname %mklibname openjph
 %define devname %mklibname -d openjph
 
 Name:           openjph
-Version:        0.30.0
+Version:        0.31.0
 Release:        1
 Summary:        Open-source implementation of JPEG2000 Part-15 (or JPH or HTJ2K)
 License:        BSD-2-Clause
@@ -50,7 +50,7 @@ standard Part 15.
         -DCMAKE_BUILD_TYPE=Release
 %else
         -DCMAKE_BUILD_TYPE=Release \
-        -DOJPH_ENABLE_INTEL_AVX512=ON
+        -DOJPH_ENABLE_INTEL_AVX512=OFF
 %endif
 %make_build
 
